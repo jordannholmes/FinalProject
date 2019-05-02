@@ -13,3 +13,4 @@ Question 4: The output will be an organized view of the data provided, both eDNA
 Question 5: 
 
 Question 6: Our biggest concerns all relate to our lack of experience. We fear we will not be able to come up with the appropriate commands to code for what we want to manipulate or fix in the provided data. We are also afraid that we are not fully aware of the complexities of this project yet and will have a difficult time starting.
+# FinalProject
