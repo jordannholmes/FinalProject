@@ -44,7 +44,7 @@ sed -e '3d; 5d; 6d; 8d; 12d; 13d; 14d; 15d; 18d; 20d; 21d; 22d; 23d; 24d; 26d; 2
 
 #This completes the first part of our Final Project as the data is properly organized with incomplete data eliminated.
 
-#The remainder of our project with focus on using RStudio and TR8 Package to analyze different variables of the remaining species data in README_Week7_Data.txt.
+#The remainder of our project with focus on using RStudio and TR8 Package to analyze different variables of the remaining species data in OriginalData.txt.
 
 
 echo "done"
