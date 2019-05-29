@@ -11,15 +11,14 @@ echo "loading....."
 
 #We returned to README_Week7_Data.txt file and deleted the lines with the ';;' character present, single ';' character present, 'NA' present, and blank spaces present  using the command...
 
-grep -n ";;" OriginalData.txt | grep -n ";$"
-grep -n "NA" OriginalData.txt
+grep -n ";;" README_Week7_Data.txt | grep -n ";$" | grep -n "NA$"
 
 
 #Action 2:
 
 #We officially deleted all of the lines with ';;', ';', 'NA' and blank spaces by using the command...
 
-#sed -e '3d; 5d; 6d; 8d; 12d; 13d; 14d; 15d; 18d; 20d; 21d; 22d; 23d; 24d; 26d; 28d; 29d; 30d; 31d; 33d; 34d; 35d; 36d; 37d; 38d; 39d; 40d; 41d; 42d; 43d; 44d; 45d; 46d; 48d; 49d; 50d; 52d; 54d; 55d; 56d; 56d; 58d; 59d; 60d; 61d; 63d; 64d; 67d; 69d; 72d; 73d; 74d; 76d; 78d; 79d; 80d; 81d; 82d; 84d; 85d; 88d; 89d; 90d; 91d; 92d; 93d; 96d; 98d; 101d; 102d; 103d; 104d; 106d; 107d; 108d; 111d; 114d; 115d; 116d; 118d; 119d; 120d; 121d; 122d; 123d; 125d; 127d; 128d; 129d; 131d; 132d; 133d; 135d; 136d; 137d; 138d; 139d; 142d; 143d; 144d; 145d; 150d' OriginalData.txt
+#sed -e '3d; 5d; 6d; 8d; 12d; 13d; 14d; 15d; 18d; 20d; 21d; 22d; 23d; 24d; 26d; 28d; 29d; 30d; 31d; 33d; 34d; 35d; 36d; 37d; 38d; 39d; 40d; 41d; 42d; 43d; 44d; 45d; 46d; 48d; 49d; 50d; 52d; 54d; 55d; 56d; 56d; 58d; 59d; 60d; 61d; 63d; 64d; 67d; 69d; 72d; 73d; 74d; 76d; 78d; 79d; 80d; 81d; 82d; 84d; 85d; 88d; 89d; 90d; 91d; 92d; 93d; 96d; 98d; 101d; 102d; 103d; 104d; 106d; 107d; 108d; 111d; 114d; 115d; 116d; 118d; 119d; 120d; 121d; 122d; 123d; 125d; 127d; 128d; 129d; 131d; 132d; 133d; 135d; 136d; 137d; 138d; 139d; 142d; 143d; 144d; 145d; 150d' README_Week7_Data.txt
 
 #We decided to use a pipe with a combination of commands, exemplified below, in order make be more time and space efficient. See below, under Action 3.
 
@@ -30,7 +29,7 @@ grep -n "NA" OriginalData.txt
 
 #This command will take out the single semicolons and replace them with tabs, to create the space in between each column.
 
-sed -e '3d; 5d; 6d; 8d; 12d; 13d; 14d; 15d; 18d; 20d; 21d; 22d; 23d; 24d; 26d; 28d; 29d; 30d; 31d; 33d; 34d; 35d; 36d; 37d; 38d; 39d; 40d; 41d; 42d; 43d; 44d; 45d; 46d; 48d; 49d; 50d; 52d; 54d; 55d; 56d; 56d; 58d; 59d; 60d; 61d; 63d; 64d; 67d; 69d; 72d; 73d; 74d; 76d; 78d; 79d; 80d; 81d; 82d; 84d; 85d; 88d; 89d; 90d; 91d; 92d; 93d; 96d; 98d; 101d; 102d; 103d; 104d; 106d; 107d; 108d; 111d; 114d; 115d; 116d; 118d; 119d; 120d; 121d; 122d; 123d; 125d; 127d; 128d; 129d; 131d; 132d; 133d; 135d; 136d; 137d; 138d; 139d; 142d; 143d; 144d; 145d; 150d' OriginalData.txt | sed 's/;/\t/g' | sed 's/\.\./\t/g' 
+#sed -e '3d; 5d; 6d; 8d; 12d; 13d; 14d; 15d; 18d; 20d; 21d; 22d; 23d; 24d; 26d; 28d; 29d; 30d; 31d; 33d; 34d; 35d; 36d; 37d; 38d; 39d; 40d; 41d; 42d; 43d; 44d; 45d; 46d; 48d; 49d; 50d; 52d; 54d; 55d; 56d; 56d; 58d; 59d; 60d; 61d; 63d; 64d; 67d; 69d; 72d; 73d; 74d; 76d; 78d; 79d; 80d; 81d; 82d; 84d; 85d; 88d; 89d; 90d; 91d; 92d; 93d; 96d; 98d; 101d; 102d; 103d; 104d; 106d; 107d; 108d; 111d; 114d; 115d; 116d; 118d; 119d; 120d; 121d; 122d; 123d; 125d; 127d; 128d; 129d; 131d; 132d; 133d; 135d; 136d; 137d; 138d; 139d; 142d; 143d; 144d; 145d; 150d' README_Week7_Data.txt | sed 's/;/\t/g' | sed 's/\.\./\t/g' 
 
 
 #Action 4:
@@ -44,7 +43,7 @@ sed -e '3d; 5d; 6d; 8d; 12d; 13d; 14d; 15d; 18d; 20d; 21d; 22d; 23d; 24d; 26d; 2
 
 #This completes the first part of our Final Project as the data is properly organized with incomplete data eliminated.
 
-#The remainder of our project with focus on using RStudio and TR8 Package to analyze different variables of the remaining species data in OriginalData.txt.
+#The remainder of our project with focus on using RStudio and TR8 Package to analyze different variables of the remaining species data in README_Week7_Data.txt.
 
 
 echo "done"
