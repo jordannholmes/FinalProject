@@ -1,4 +1,4 @@
-#Plants_TR8
+# Plants_TR8
 
 This program takes publicly available databases and provides it to the user to easily
 retrieve the traits data of plant species. The Plants_TR8 program can be utilized by
@@ -13,12 +13,12 @@ The main purpose of this program is to obtain data from the TR8 package in the R
 software and format in such a way that makes it easier for someone to search for
 a specfic component or trait of a plant.
 
-##Getting Started
+## Getting Started
 This program has two parts:
 1) Hoffman 2
 2) R Studio
 
-#Workflow
+# Workflow
 
 The flow of the program is as follows:
 Reads the input file of the OriginalData.txt provided by Github ->
@@ -36,12 +36,12 @@ install.packages("TR8")
 install_github("roponsci/TR8")
 ```
 
-#Download the Specific Package Required for Analysis
+# Download the Specific Package Required for Analysis
 ``` {r}
 library("TR8")
 ```
 
-#How do you use the program?
+# How do you use the program?
 Our ultimate goal is to obtain only the unique species names. After this
 we will input this data to Rstudio. Steps are as follow:
 
@@ -57,6 +57,6 @@ denoted by a blank line
 5)Obtain only Species name, no Numerical values
         -this is fulfilled through the grep command
 
-#Authors
+# Authors
 Nicole Diaz & Jordan Holmes
 
