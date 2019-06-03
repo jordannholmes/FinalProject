@@ -21,9 +21,13 @@ This program has two parts:
 # Workflow
 
 The flow of the program is as follows:
+
 Reads the input file of the OriginalData.txt provided by Github ->
+
 Recognizes and removes single semicolons, double semicolons, blank spaces, and presence of "N/A" ->
+
 Production of a table of user-specified relevant ecological information for each unique species or genus ->
+
 RStudio provides further information of each specific species or genus from the databases of TR8
 
 # Install TR8
