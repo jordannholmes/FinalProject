@@ -22,13 +22,13 @@ This program has two parts:
 
 The flow of the program is as follows:
 
-Reads the input file of the OriginalData.txt provided by Github ->
+1) Reads the input file of the OriginalData.txt provided by Github.
 
-Recognizes and removes single semicolons, double semicolons, blank spaces, and presence of "N/A" ->
+2) Recognizes and removes single semicolons, double semicolons, blank spaces, and presence of "N/A".
 
-Production of a table of user-specified relevant ecological information for each unique species or genus ->
+3)  of a table of user-specified relevant ecological information for each unique species or genus.
 
-RStudio provides further information of each specific species or genus from the databases of TR8
+4) RStudio provides further information of each specific species or genus from the databases of TR8.
 
 # Install TR8
 ``` {r}
@@ -50,16 +50,15 @@ Our ultimate goal is to obtain only the unique species names. After this
 we will input this data to Rstudio. Steps are as follow:
 
 1) Remove lines with ';;', ';', 'NA', and lines with no taxonomy provided,
-denoted by a blank line
-        -this is fulfilled through the grep command
-2) Create tabs in between taxonomy categories of the remaining data
-        -this is fulfilled through the sed command
-3) Obtain Plant Species name
-        -this is fulfilled through the awk command
-4) Obtain Unique Species name
-        -this is fulfilled through the sort command
-5) Obtain only Species name, no Numerical values
-        -this is fulfilled through the grep command
+denoted by a blank line: This is fulfilled through the grep command.
+        
+2) Create tabs in between taxonomy categories of the remaining data: This is fulfilled through the sed command.
+        
+3) Obtain Plant Species name: This is fulfilled through the awk command.
+        
+4) Obtain Unique Species name: This is fulfilled through the sort command.
+        
+5) Obtain only Species name, no Numerical values: This is fulfilled through the grep command.
 
 # Authors
 Nicole Diaz & Jordan Holmes
