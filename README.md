@@ -47,7 +47,7 @@ we will input this data to Rstudio. Steps are as follow:
 
 1) Remove lines with ';;', ';', 'NA', and lines with no taxonomy provided,
 denoted by a blank line
-        - this is fulfilled through the grep command
+        -this is fulfilled through the grep command
 2) Create tabs in between taxonomy categories of the remaining data
         -this is fulfilled through the sed command
 3) Obtain Plant Species name
