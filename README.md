@@ -50,11 +50,11 @@ denoted by a blank line
         -this is fulfilled through the grep command
 2) Create tabs in between taxonomy categories of the remaining data
         -this is fulfilled through the sed command
-3)Obtain Plant Species name
+3) Obtain Plant Species name
         -this is fulfilled through the awk command
-4)Obtain Unique Species name
+4) Obtain Unique Species name
         -this is fulfilled through the sort command
-5)Obtain only Species name, no Numerical values
+5) Obtain only Species name, no Numerical values
         -this is fulfilled through the grep command
 
 # Authors
