@@ -26,7 +26,7 @@ The flow of the program is as follows:
 
 2) Recognizes and removes single semicolons, double semicolons, blank spaces, and presence of "N/A".
 
-3)  of a table of user-specified relevant ecological information for each unique species or genus.
+3) Creates a table of user-specified relevant ecological information for each unique species or genus.
 
 4) RStudio provides further information of each specific species or genus from the databases of TR8.
 
