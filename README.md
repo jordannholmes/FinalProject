@@ -53,19 +53,19 @@ we will input this data to Rstudio. Steps are as follow:
 
 1) Remove lines with ';;', ';', 'NA', and lines with no taxonomy provided,
 denoted by a blank line: 
-- This is fulfilled through the grep command.
+- This is fulfilled through the ***grep*** command.
 
 2) Create tabs in between taxonomy categories of the remaining data: 
-- This is fulfilled through the sed command.
+- This is fulfilled through the ***sed*** command.
 
 3) Obtain Plant Species name: 
-- This is fulfilled through the awk command.
+- This is fulfilled through the ***awk*** command.
 
 4) Obtain Unique Species name: 
-- This is fulfilled through the sort command.
+- This is fulfilled through the ***sort*** command.
 
 5) Obtain only Species name, no Numerical values: 
-- This is fulfilled through the grep command.
+- This is fulfilled through the ***grep*** command.
 
 # Expected Output
 
