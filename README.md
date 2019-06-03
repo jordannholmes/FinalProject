@@ -8,7 +8,7 @@ traits data for plant species are: Biolflor, The Ecological Flora of the British
 LEDA traitbase, Ellenberg values for Italian Flora, Mycorrhizal intensity databases,
 Catminat, BROT, PLANTS, Jepson Flora Project.
 
-###Purpose
+### Purpose
 The main purpose of this program is to obtain data from the TR8 package in the R
 software and format in such a way that makes it easier for someone to search for
 a specfic component or trait of a plant.
