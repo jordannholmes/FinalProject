@@ -50,5 +50,5 @@ echo "done"
 
 This input data we will use is OriginalData.txt
 
-Obtain this input data by this [link] ( https://github.com/jordannholmes/FinalProject/blob/master/OriginalData.txt)
+Obtain this input data by this link: https://github.com/jordannholmes/FinalProject/blob/master/OriginalData.txt
 
