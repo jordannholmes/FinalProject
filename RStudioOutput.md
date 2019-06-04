@@ -20,7 +20,7 @@
 
 
 
-| **Rubric** | **6pt** | **4pt** | **2pt** | **1pt** |
+| **Plant Genus Species** | **h_max** | **h_min** | **le_long** | **age_first_flowering** | **leaf_size** |
 | --- | ---| --- | --- | --- |
 | Effort | |  | X | |
 | Accuracy | X | | | |
