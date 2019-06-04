@@ -27,7 +27,7 @@ The flow of the program is as follows:
 1) Reads the input file of the OriginalData.txt provided by Github.
 
 2) Recognizes and removes single semicolons, double semicolons, blank spaces, and presence of "N/A". But for
-the purpose of this project#For the purposes of this project, and after running RStudio analysis, it has been decided that we will keep lines with ;; and NA in order to find more Genus and Species within our original dataset to be anaylyzed.
+the purpose of this project and after running RStudio analysis, it has been decided that we will keep lines with ;; and NA in order to find more Genus and Species within our original dataset to be anaylyzed.
 
 3) Creates a table of user-specified relevant ecological information for each unique species or genus.
 
