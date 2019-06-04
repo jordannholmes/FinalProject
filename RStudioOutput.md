@@ -17,3 +17,11 @@
 | Pseudochlorella signiensis |
 | Ptychostomum funkii |
 | Tetracystis pampae |
+
+
+
+| **Rubric** | **6pt** | **4pt** | **2pt** | **1pt** |
+| --- | ---| --- | --- | --- |
+| Effort | |  | X | |
+| Accuracy | X | | | |
+| Timely Submission | | | X | |
