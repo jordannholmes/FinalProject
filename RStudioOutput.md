@@ -21,7 +21,7 @@
 
 
 | **Plant Genus Species** | **h_max** | **h_min** | **le_long** | **age_first_flowering** | **leaf_size** |
-| Anomobryum auratum | NA  | NA | NA | NA |  NA |
+| Anomobryum auratum | NA | NA | NA | NA |  NA |
 | Effort | |  | X | | --- |
 | Accuracy | X | | | |  --- |
 | Timely Submission | | | X | | --- |
