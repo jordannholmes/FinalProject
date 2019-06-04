@@ -35,3 +35,25 @@ my_data<-tr8(species_list = my_species, download_list = my_traits)
 ```{r}
 print(my_data)
 ```
+
+
+##
+
+| **Plant Genus Species** | **h_max** | **h_min** | **le_long** | **age_first_flowering** | ** leaf_size *** |
+| Anomobryum auratum | NA | NA | NA | NA | NA |
+| Apium graveolens | | | | |
+| Artemisia californica | | | | |
+| Avena fatua | | | | |
+| Bryum argenteum |
+| Chlorococcum oleofaciens |
+| Crassula aquatica |
+| Gemmabryum dichotomum	|
+| Holcus mollis |
+| Hormotilopsis gelatinosa |
+| Interfilum massjukiae |
+| Lathyrus sylvestris |
+| Potentilla anserina |
+| Pseudochlorella signiensis |
+| Ptychostomum funkii |
+| Tetracystis pampae |
+
