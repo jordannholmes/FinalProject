@@ -1,4 +1,4 @@
-# Plants_TR8
+# Plants In Trait Analysis (PITA)
 
 ## Introduction
 
