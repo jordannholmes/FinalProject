@@ -23,14 +23,11 @@
 
 | **Plant Genus Species** | **h_max** | **h_min** | **le_long** | **age_first_flowering** | **leaf_size** |
 | --- | ---| --- | --- | --- |  --- |
-| Effort | |  | X | | --- |
-| Accuracy | X | | | |  --- |
-| Timely Submission | | | X | | --- |
 | --- | ---| --- | --- | --- |  --- |
-| Effort | |  | X | | --- |
-| Accuracy | X | | | |  --- |
-| Timely Submission | | | X | | --- |
 | --- | ---| --- | --- | --- |  --- |
-| Effort | |  | X | | --- |
-| Accuracy | X | | | |  --- |
-| Timely Submission | | | X | | --- |
+| --- | ---| --- | --- | --- |  --- |
+| --- | ---| --- | --- | --- |  --- |
+| --- | ---| --- | --- | --- |  --- |
+| --- | ---| --- | --- | --- |  --- |
+| --- | ---| --- | --- | --- |  --- |
+
