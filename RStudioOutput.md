@@ -5,10 +5,10 @@
 | Anomobryum auratum | NA | NA | NA | NA | NA |
 | Apium graveolens | 100 | 30 | NA | 1-5 Years | --- |
 | Artemisia californica | NA | NA | --- | --- | --- |
-| Avena fatua | 100 | NA | --- | --- | --- |
+| Avena fatua | 100 | 30 | --- | --- | --- |
 | Bryum argenteum | NA | NA | --- | --- | --- |
 | Chlorococcum oleofaciens | NA | NA | --- | --- | --- |
-| Crassula aquatica | 5 | 20 | --- | --- | --- |
+| Crassula aquatica | 5 | NA | --- | --- | --- |
 | Gemmabryum dichotomum | NA | NA | --- | --- | --- |
 | Holcus mollis | 100 | 20 | --- | --- | --- |
 | Hormotilopsis gelatinosa | NA | NA | --- | --- | --- |
