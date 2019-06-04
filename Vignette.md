@@ -1,4 +1,4 @@
-# How to Run the Program
+# How to Run the Program (On Hoffman2)
 The main purpose of this program is to obtain data from the TR8 package in the R software and format in such a way that makes it easier for someone to search for a specfic component or trait of a plant.
 
 1. Run the OriginalData.txt example
@@ -56,14 +56,14 @@ Obtain this input data by this link: https://github.com/jordannholmes/FinalProje
 # Expected Output (of Running Program Using the Small Dataset)
 ### We are given the ***Unique Genus Name followed by its Species Name***
 
-Anomobryum auratum
-Artemisia californica
-Bryum argenteum
-Chlorococcum oleofaciens
-Crassula aquatica
-Gemmabryum dichotomum
-Hormotilopsis gelatinosa
-Interfilum massjukiae
-Pseudochlorella signiensis
-Ptychostomum funkii
-Tetracystis pampae
+- Anomobryum auratum
+- Artemisia californica
+- Bryum argenteum
+- Chlorococcum oleofaciens
+- Crassula aquatica
+- Gemmabryum dichotomum
+- Hormotilopsis gelatinosa
+- Interfilum massjukiae
+- Pseudochlorella signiensis
+- Ptychostomum funkii
+- Tetracystis pampae
