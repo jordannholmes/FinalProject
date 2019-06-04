@@ -34,17 +34,17 @@ the purposes of this project and after running RStudio analysis, it has been dec
 
 4) RStudio provides further information of each specific genus and species from the databases with the TR8 package.
 
-# Install TR8
+## Install TR8
 ``` {r}
 install.packages("TR8")
 ```
 
-# Install GitHub for Pushing Analysis
+## Install GitHub for Pushing Analysis
 ``` {r}
 install_github("roponsci/TR8")
 ```
 
-# Download the Specific Package Required for Analysis
+## Download the Specific Package Required for Analysis
 ``` {r}
 library("TR8")
 ```
