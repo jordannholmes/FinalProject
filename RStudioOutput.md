@@ -12,7 +12,7 @@
 | Gemmabryum dichotomum | NA | NA | NA | NA | NA |
 | Holcus mollis | 100 | 20 | evergreen | Within 1 Year | 1053.500 |
 | Hormotilopsis gelatinosa | NA | NA | NA | NA | NA |
-| Interfilum massjukiae | NA | NA | NA | NA | 1053.500 |
+| Interfilum massjukiae | NA | NA | NA | NA | NA |
 | Lathyrus sylvestris | 200 | 100 | NA | 1-5 Years | NA |
 | Potentilla anserina | 8 | 2 | aestival | 1-5 Years | 6700.333 |
 | Pseudochlorella signiensis | NA | NA | NA | NA | NA |
