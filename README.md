@@ -2,6 +2,7 @@
 
 ## Introduction
 
+### Background
 This program takes publicly available databases and provides it to the user to easily
 retrieve the traits data of plant species. The Plants_TR8 program can be utilized by
 plant ecologists when an accumilation of 'traits' data about plant species needs to be
@@ -10,7 +11,7 @@ traits data for plant species are: Biolflor, The Ecological Flora of the British
 LEDA traitbase, Ellenberg values for Italian Flora, Mycorrhizal intensity databases,
 Catminat, BROT, PLANTS, Jepson Flora Project.
 
-### Purpose
+### Justification/ Purpose
 The main purpose of this program is to obtain data from the TR8 package in the R
 software and format in such a way that makes it easier for someone to search for
 a specfic component or trait of a plant.
