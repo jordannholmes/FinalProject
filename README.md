@@ -14,7 +14,7 @@ Catminat, BROT, PLANTS, Jepson Flora Project.
 ### Justification/Purpose
 The main purpose of this program is to obtain data from the TR8 package in the R
 software and format in such a way that makes it easier for someone to search for
-a specfic component or trait of a plant.
+a specific component or trait of a plant species.
 
 ## Dependencies
 This program has three parts:
@@ -27,12 +27,12 @@ The flow of the program is as follows:
 
 1) Reads the input file of the OriginalData.txt provided by Github.
 
-2) Recognizes and removes single semicolons, double semicolons, blank spaces, and presence of "N/A". However, for
-the purposes of this project and after running RStudio analysis, it has been decided that we will keep lines with ;; and NA in order to find more Genus and Species combinations within our original dataset to be anaylyzed.
+2) Recognizes and removes single semicolons, double semicolons, blank spaces, and presence of "N/A" from OriginalData.txt. However, for
+the purposes of this project and after running RStudio analysis, it has been decided that we will keep lines with ;; and NA in order to find more Genus and Species within our original dataset to be anaylyzed.
 
-3) Creates a table of user-specified relevant ecological information for each unique genus and species combination.
+3) Creates a table of user-specified relevant ecological information for each unique genus and species.
 
-4) RStudio provides further information of each specific genus and species combination from the databases with the TR8 package.
+4) RStudio provides further information of each specific genus and species from the databases with the TR8 package.
 
 # Install TR8
 ``` {r}
@@ -87,7 +87,7 @@ Our Final Output is as follows:
 - Ptychostomum funkii
 - Tetracystis pampae
 
-This steps can be found within the Command_Scripts file. Specifically, the final output can be found within Data_Output/README_Week10_Data.txt.
+These steps can be found within the Command_Scripts file. Specifically, the final output can be found within Data_Output/README_Week10_Data.txt.
 
 # References
 Bocci, Gionata. "TR8: An R Package for Easily Retrieving Plant Species Traits."
@@ -96,5 +96,8 @@ Bocci, Gionata. "TR8: An R Package for Easily Retrieving Plant Species Traits."
 
 # Authors
 Nicole Diaz & Jordan Holmes
+
+# Acknowledgements
+We would like to thank Dr. Emily Curd and Daniel Chavez for their guidance and suggestions. 
 
 
