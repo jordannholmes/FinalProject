@@ -96,6 +96,8 @@ Bocci, Gionata. "TR8: An R Package for Easily Retrieving Plant Species Traits."
 
 # Authors
 Nicole Diaz & Jordan Holmes
+nicolediaz1@g.ucla.edu
+jordannholmes@g.ucla.edu
 
 # Acknowledgements
 We would like to thank Dr. Emily Curd and Daniel Chavez for their guidance and suggestions. 
