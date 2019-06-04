@@ -47,9 +47,23 @@ grep -v "[0-9]" NewData50.txt > NewData60.txt
 echo "done"
 ```
 
-# Example Input
+# Example Input/ A Small Test Data Set
 
 This input data we will use is OriginalData.txt
 
 Obtain this input data by this link: https://github.com/jordannholmes/FinalProject/blob/master/OriginalData.txt
 
+# Expected Output (of Running Program Using the Small Dataset)
+### We are given the ***Unique Genus Name followed by its Species Name***
+
+Anomobryum auratum
+Artemisia californica
+Bryum argenteum
+Chlorococcum oleofaciens
+Crassula aquatica
+Gemmabryum dichotomum
+Hormotilopsis gelatinosa
+Interfilum massjukiae
+Pseudochlorella signiensis
+Ptychostomum funkii
+Tetracystis pampae
