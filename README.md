@@ -74,17 +74,17 @@ the requirements set forth in our instructions.
 
 Our Final Output is as follows:
 
-Anomobryum auratum
-Artemisia californica
-Bryum argenteum
-Chlorococcum oleofaciens
-Crassula aquatica
-Gemmabryum dichotomum
-Hormotilopsis gelatinosa
-Interfilum massjukiae
-Pseudochlorella signiensis
-Ptychostomum funkii
-Tetracystis pampae
+- Anomobryum auratum
+- Artemisia californica
+- Bryum argenteum
+- Chlorococcum oleofaciens
+- Crassula aquatica
+- Gemmabryum dichotomum
+- Hormotilopsis gelatinosa
+- Interfilum massjukiae
+- Pseudochlorella signiensis
+- Ptychostomum funkii
+- Tetracystis pampae
 
 
 # References
