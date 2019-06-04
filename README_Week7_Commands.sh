@@ -15,11 +15,11 @@ grep -n ";;" README_Week7_Data.txt | grep -n ";$" | grep -n "NA$"
 
 #Action 2:
 
-#We officially deleted all of the lines with ';;' by using the command...
+#We created a secondary command in the case that grep did not work. This command, using sed, required each line to be individually recognized. This was not as time efficient or universal, therefore we used the grep function in our own project.
 
 #sed -e '4d; 16d; 23d; 24d; 25d; 27d; 30d; 31d; 35d; 36d; 40d; 43d; 45d; 46d; 47d; 55d; 57d; 67d; 68d; 79d; 82d; 85d; 86d; 90d; 91d; 92d; 102d; 103d; 104d; 105d; 116d; 121d; 122d; 123d; 128d' README_Week7_Data.txt
 
-#We decided to use a pipe with a combination of commands, exemplified below, in order make be more time and space efficient. 
+#We decided to also create a pipe with a combination of commands, exemplified below, in order make be more time and space efficient in the case that the sed function must be used instead of the grep function. 
 
 
 #Action 3:
@@ -28,12 +28,12 @@ grep -n ";;" README_Week7_Data.txt | grep -n ";$" | grep -n "NA$"
 
 #This command will take out the single semicolons and replace them with tabs, to create the space in between each column.
 
-#sed -e '3d; 15d; 22d; 23d; 24d; 26d; 29d; 30d; 39d; 42d; 44d; 46d; 54d; 58d; 78d; 81d; 89d; 90d; 91d; 92d; 101d; 102d; 103d; 115d; 119d; 122d; 127d' README_Week7_Data.txt | sed 's/;/\t/g' | sed 's/\.\./\t/g' 
+#sed -e '4d; 16d; 23d; 24d; 25d; 27d; 30d; 31d; 35d; 36d; 40d; 43d; 45d; 46d; 47d; 55d; 57d; 67d; 68d; 79d; 82d; 85d; 86d; 90d; 91d; 92d; 102d; 103d; 104d; 105d; 116d; 121d; 122d; 123d; 128d' README_Week7_Data.txt | sed 's/;/\t/g' | sed 's/\.\./\t/g' 
 
 
 #Action 4:
 
-#Went to first line of the text file, which provides the titles for each column of data. Added the terms Kingdom, Phylum, Class, Order, Family, Genus, Species, all of which were separated by tabs.
+#Went to first line of the text file, which provides the titles for each column of data. Added the terms Kingdom, Phylum, Class, Order, Family, Genus, Species, all of which were separated by tabs. This was for our own organization. It is not necessary for analysis purposes.
 
 #This was done manually instead of using a command. We did this to ensure the titles were were correctly placed over the corresponding data and to save time.
 
