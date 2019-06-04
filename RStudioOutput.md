@@ -20,7 +20,7 @@
 
 
 
-| **Plant Genus Species** | **h_max** | **h_min** | **le_long** | 
+| **Plant Genus Species** | **h_max** | **h_min** | **le_long** | **age_first_flowering** | 
 | --- | ---| --- | --- | --- |
 | Effort | |  | X | |
 | Accuracy | X | | | |
