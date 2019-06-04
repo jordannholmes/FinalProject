@@ -3,9 +3,9 @@
 | **Plant Genus Species** | **h_max** | **h_min** | **le_long** | **age_first_flowering** | **leaf_size** |
 | Anomobryum auratum | NA | NA | NA | NA | NA |
 | Apium graveolens | 100 | 30 | NA | 1-5 Years |  |
-| Artemisia californica | | | | | |
-| Avena fatua | | | | | |
-| Bryum argenteum | | | | | |
+| Artemisia californica | | | | |
+| Avena fatua | | | | |
+| Bryum argenteum | | | | |
 | Chlorococcum oleofaciens | | | | | |
 | Crassula aquatica | | | | | |
 | Gemmabryum dichotomum	| | | | | |
@@ -32,8 +32,8 @@
 | Accuracy | X | | | |  --- |
 | Timely Submission | | | X | | --- |
 
-| **Rubric** | **6pt** | **4pt** | **2pt** | **1pt** |
-| --- | ---| --- | --- | --- |
-| Effort | |  | X | |
-| Accuracy | X | | | |
-| Timely Submission | | | X | |
+| **Plant Genus Species** | **h_max** | **h_min** | **le_long** | **age_first_flowering** | **leaf_size** |
+| --- | ---| --- | --- | --- |  --- |
+| Effort | |  | X | | --- |
+| Accuracy | X | | | |  --- |
+| Timely Submission | | | X | | --- |
