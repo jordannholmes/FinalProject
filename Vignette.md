@@ -2,41 +2,42 @@
 The main purpose of this program is to obtain data from the TR8 package in the R software and format in such a way that makes it easier for someone to search for a specfic component or trait of a plant.
 
 1. Run the OriginalData.txt example
-- This command runs the OriginalData.txt and removes the lines with ';;', ';', 'NA', and lines with no taxonomy provided, denoted by a blank line. Each command will print output into a new text file.
+- This command runs the OriginalData.txt and removes the lines with ';;', ';', 'NA', and lines with no taxonomy provided, denoted by a blank line. Each command will print output into a new text file. **For the purposes of this project, and after running RStudio analysis, it has been decided that we will keep lines with ;; and NA in order to find more Genus.Species within our original dataset to be anaylyzed.** ***(this is denoted by the hashtags "#" prior to certain grep functions)***
+
 
 ``` {r}
-grep -v ";;" OriginalData.txt > NewData.txt
-grep -v ";$" NewData.txt  > NewData2.txt
-grep -v "NA" NewData2.txt > NewData3.txt
-grep -v "sp." NewData3.txt > NewData4.txt
+#grep -v ";;"
+grep -v ";$" OriginalData.txt  > NewData10.txt
+#grep -v "NA"
+grep -v "sp." NewData10.txt > NewData20.txt
 ```
 
 2. Create Tabs
 - This command creates tabs in between the taxonomy categories of the remaining data and prints to new text file.
 
 ``` {r}
-sed 's/;/\t/g' NewData4.txt | sed 's/\.\./\t/g' > NewData5.txt
+sed 's/;/\t/g' NewData20.txt | sed 's/\.\./\t/g' > NewData30.txt
 ```
 
-3. Obtain Plant Species Names
-- This command gives the plant species names and prints to new text file.
+3. Obtain Plant Genus Species Names
+- This command gives plant genus name, tabs, species name, and prints to new text file.
 
 ``` {r}
-awk '{ print $NF }' NewData5.txt  > NewData6.txt
+awk '{ print $59 " " $60 }' NewData30.txt  > NewData40.txt
 ```
 
-4. Obtain Unique Species Name
-- This command gives the unique species names and  prints to new text file.
+4. Obtain Unique Genus and Species Name
+- This command gives gives the unique genus name/species names combinations and prints to new text file.
 
 ``` {r}
-sort -uk 1,1 NewData6.txt > NewData7.txt
+sort -uk 1,1 NewData40.txt > NewData50.txt
 ```
 
 5. Delete Numerical Values
 - This command gives only the species name, deletes any numerical values, and prints to new text file.
 
 ``` {r}
-grep -v "[0-9]" NewData7.txt > NewData8.txt
+grep -v "[0-9]" NewData50.txt > NewData60.txt
 ```
 
 6. Completion
