@@ -69,7 +69,7 @@ denoted by a blank line:
 - This is fulfilled through the ***grep*** command.
 
 # Expected Output
-- For the expected output, we will hope to see the genuses and species names that fulfilled 
+- For the expected output, we will hope to see the **genuses** and **species** names that fulfilled 
 the requirements set forth in our instructions.
 
 Our Final Output is as follows:
