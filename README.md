@@ -11,28 +11,28 @@ traits data for plant species are: Biolflor, The Ecological Flora of the British
 LEDA traitbase, Ellenberg values for Italian Flora, Mycorrhizal intensity databases,
 Catminat, BROT, PLANTS, Jepson Flora Project.
 
-### Justification/ Purpose
+### Justification/Purpose
 The main purpose of this program is to obtain data from the TR8 package in the R
 software and format in such a way that makes it easier for someone to search for
 a specfic component or trait of a plant.
 
 ## Dependencies
-This program has two parts:
-1) Hoffman 2
+This program has three parts:
+1) Hoffman 2 - Shell
 2) R Studio
+3) CyberDuck
 
-# Program  Workflow
-
+## Program Workflow
 The flow of the program is as follows:
 
 1) Reads the input file of the OriginalData.txt provided by Github.
 
-2) Recognizes and removes single semicolons, double semicolons, blank spaces, and presence of "N/A". But for
-the purpose of this project and after running RStudio analysis, it has been decided that we will keep lines with ;; and NA in order to find more Genus and Species within our original dataset to be anaylyzed.
+2) Recognizes and removes single semicolons, double semicolons, blank spaces, and presence of "N/A". However, for
+the purposes of this project and after running RStudio analysis, it has been decided that we will keep lines with ;; and NA in order to find more Genus and Species combinations within our original dataset to be anaylyzed.
 
-3) Creates a table of user-specified relevant ecological information for each unique species or genus.
+3) Creates a table of user-specified relevant ecological information for each unique genus and species combination.
 
-4) RStudio provides further information of each specific species or genus from the databases of TR8.
+4) RStudio provides further information of each specific genus and species combination from the databases with the TR8 package.
 
 # Install TR8
 ``` {r}
@@ -49,8 +49,8 @@ install_github("roponsci/TR8")
 library("TR8")
 ```
 
-# Instructions
-Our ultimate goal is to obtain only the unique species names. After this
+## Instructions
+Our ultimate goal is to obtain only the unique genus and species combinations. After this
 we will input this data to Rstudio. Steps are as follow:
 
 1) Remove lines with ';' and lines with no taxonomy provided,
@@ -69,7 +69,7 @@ denoted by a blank line:
 5) Obtain only Species name, no Numerical values: 
 - This is fulfilled through the ***grep*** command.
 
-# Expected Output
+## Expected Output
 - For the expected output, we will hope to see the **genuses** and **species** names that fulfilled 
 the requirements set forth in our instructions.
 
@@ -87,6 +87,7 @@ Our Final Output is as follows:
 - Ptychostomum funkii
 - Tetracystis pampae
 
+This steps can be found within the Command_Scripts file. Specifically, the final output can be found within Data_Output/README_Week10_Data.txt.
 
 # References
 Bocci, Gionata. "TR8: An R Package for Easily Retrieving Plant Species Traits."
