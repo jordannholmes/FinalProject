@@ -4,17 +4,17 @@
 | --- | --- | --- | --- | --- | --- |
 | Anomobryum auratum | NA | NA | NA | NA | NA |
 | Apium graveolens | 100 | 30 | NA | 1-5 Years | --- |
-| Artemisia californica | NA | --- | --- | --- | --- |
-| Avena fatua | 100 | --- | --- | --- | --- |
-| Bryum argenteum | NA | --- | --- | --- | --- |
-| Chlorococcum oleofaciens | NA | --- | --- | --- | --- |
-| Crassula aquatica | 5 | --- | --- | --- | --- |
-| Gemmabryum dichotomum | NA | --- | --- | --- | --- |
-| Holcus mollis | 100 | --- | --- | --- | --- |
-| Hormotilopsis gelatinosa | NA | --- | --- | --- | --- |
-| Interfilum massjukiae | NA | --- | --- | --- | --- |
-| Lathyrus sylvestris | 200 | --- | --- | --- | --- |
-| Potentilla anserina | 8 | --- | --- | --- | --- |
-| Pseudochlorella signiensis | NA | --- | --- | --- | --- |
-| Ptychostomum funkii | NA | --- | --- | --- | --- |
-| Tetracystis pampae | NA | --- | --- | --- | --- |
+| Artemisia californica | NA | NA | --- | --- | --- |
+| Avena fatua | 100 | NA | --- | --- | --- |
+| Bryum argenteum | NA | NA | --- | --- | --- |
+| Chlorococcum oleofaciens | NA | NA | --- | --- | --- |
+| Crassula aquatica | 5 | 20 | --- | --- | --- |
+| Gemmabryum dichotomum | NA | NA | --- | --- | --- |
+| Holcus mollis | 100 | 20 | --- | --- | --- |
+| Hormotilopsis gelatinosa | NA | NA | --- | --- | --- |
+| Interfilum massjukiae | NA | NA | --- | --- | --- |
+| Lathyrus sylvestris | 200 | 100 | --- | --- | --- |
+| Potentilla anserina | 8 | 2 | --- | --- | --- |
+| Pseudochlorella signiensis | NA | NA | --- | --- | --- |
+| Ptychostomum funkii | NA | NA | --- | --- | --- |
+| Tetracystis pampae | NA | NA | --- | --- | --- |
