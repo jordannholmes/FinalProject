@@ -26,7 +26,8 @@ The flow of the program is as follows:
 
 1) Reads the input file of the OriginalData.txt provided by Github.
 
-2) Recognizes and removes single semicolons, double semicolons, blank spaces, and presence of "N/A".
+2) Recognizes and removes single semicolons, double semicolons, blank spaces, and presence of "N/A". But for
+the purpose of this project#For the purposes of this project, and after running RStudio analysis, it has been decided that we will keep lines with ;; and NA in order to find more Genus.Species within our original dataset to be anaylyzed.
 
 3) Creates a table of user-specified relevant ecological information for each unique species or genus.
 
@@ -51,7 +52,7 @@ library("TR8")
 Our ultimate goal is to obtain only the unique species names. After this
 we will input this data to Rstudio. Steps are as follow:
 
-1) Remove lines with ';;', ';', 'NA', and lines with no taxonomy provided,
+1) Remove lines with ';' and lines with no taxonomy provided,
 denoted by a blank line: 
 - This is fulfilled through the ***grep*** command.
 
@@ -68,6 +69,23 @@ denoted by a blank line:
 - This is fulfilled through the ***grep*** command.
 
 # Expected Output
+- For the expected output, we will hope to see the genuses and species names that fulfilled 
+the requirements set forth in our instructions.
+
+Our Final Output is as follows:
+
+Anomobryum auratum
+Artemisia californica
+Bryum argenteum
+Chlorococcum oleofaciens
+Crassula aquatica
+Gemmabryum dichotomum
+Hormotilopsis gelatinosa
+Interfilum massjukiae
+Pseudochlorella signiensis
+Ptychostomum funkii
+Tetracystis pampae
+
 
 # References
 Bocci, Gionata. "TR8: An R Package for Easily Retrieving Plant Species Traits."
