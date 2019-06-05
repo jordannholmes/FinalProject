@@ -21,7 +21,7 @@ This program has three parts:
 ## Program Workflow
 The flow of the program is as follows:
 
-1) Reads the input file of the OriginalData.txt provided by Github.
+1) Reads the input file of the Test_Set.txt (within Vignette Directory) provided by Github.
 
 2) Recognizes and removes single semicolons, double semicolons, blank spaces, and presence of "N/A" from OriginalData.txt. However, for the purposes of this project and after running RStudio analysis, it has been decided that we will keep lines with ;; and NA in order to find more Genus and Species within our original dataset to be anaylyzed.
 
@@ -85,7 +85,7 @@ Our Final Output is as follows:
 - Ptychostomum funkii
 - Tetracystis pampae
 
-These steps can be found within the Command_Scripts file. Specifically, the final output can be found within Data_Output/README_Week10_Data.txt.
+These steps can be found within the Weekly_Command_Scripts file. Specifically, the final output can be found within Data_Output/README_Week10_Data.txt.
 
 ## References
 Bocci, Gionata. "TR8: An R Package for Easily Retrieving Plant Species Traits."
