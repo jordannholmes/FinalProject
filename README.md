@@ -103,6 +103,9 @@ Jordan Holmes
         jordannholmes@g.ucla.edu
 
 ## Acknowledgements
-We would like to thank Dr. Emily Curd and Daniel Chavez for their suggestions and guidance towards the completion of this project. 
+We would like to thank Dr. Emily Curd and Daniel Chavez for their suggestions and guidance towards the completion of this project.
+
+## Citing
+Coming Soon
 
 
