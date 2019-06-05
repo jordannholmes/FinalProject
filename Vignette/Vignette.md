@@ -1,5 +1,5 @@
 # How to Run the Program (On Hoffman2)
-The main purpose of this program is to obtain data from the TR8 package in the R software and format in such a way that makes it easier for someone to search for a specfic component or trait of a plant.
+The main purpose of this program is to obtain data from the TR8 package in the R software and format in such a way that makes it easier for someone to search for a specfic component or trait of a plant species.
 
 1. Run the OriginalData.txt.
 - This command runs the OriginalData.txt and removes the lines with ';;', ';', 'NA', and lines with no taxonomy provided, denoted by a blank line. Each command will print output into a new text file. 
