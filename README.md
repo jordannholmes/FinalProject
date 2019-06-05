@@ -85,7 +85,7 @@ Our Final Output is as follows:
 - Ptychostomum funkii
 - Tetracystis pampae
 
-These steps can be found within the Weekly_Command_Scripts file. Specifically, the final output can be found within Data_Output/README_Week10_Data.txt or Vignette/Expected_Output.txt
+These steps can be found within the Weekly_Command_Scripts file. Specifically, the final output can be found within Weekly_Data_Output/README_Week10_Data.txt or Vignette/Expected_Output.txt
 
 ## References
 Bocci, Gionata. "TR8: An R Package for Easily Retrieving Plant Species Traits."
