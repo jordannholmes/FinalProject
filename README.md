@@ -16,9 +16,9 @@ Jordan Holmes
 This program takes publicly available databases and allows the user to easily retrieve trait data of a desired plant species. The TR8 program can be utilized by plant ecologists when an accumulation of 'traits' data about plant species needs to be collected from various databases. The available databases where TR8 obtains the functional traits data for plant species are: Biolflor, The Ecological Flora of the British Isles, LEDA traitbase, Ellenberg values for Italian Flora, Mycorrhizal intensity databases, Catminat, BROT, PLANTS, Jepson Flora Project. The main purpose of this program is to obtain data from the TR8 package in the R software and format in such a way that makes it easier for a user to find information pertaining to a component or trait of a specific plant species. For the purposes of this program, the input data is an eDNA / anacapa output table.
 
 ## Dependencies
-This program has three parts:
-1) Hoffman2 - Shell
-2) R - Shell 
+This program has two parts:
+1) Hoffman2
+2) R
 
 ## Program Workflow
 The flow of the program is as follows:
@@ -92,14 +92,19 @@ Our Final Output is as follows:
 These steps can be found within the Weekly_Command_Scripts file. Specifically, the final output can be found within Weekly_Data_Output/README_Week10_Data.txt or Vignette/Expected_Output.txt
 
 ## References
-Bocci, Gionata. "TR8: An R Package for Easily Retrieving Plant Species Traits."
-        Methods in Ecology and Evolution 6, no. 3 (April 10, 2019): 1-26.
-        doi:10.1111/2041-210x.12327.
+Bocci, Gionata. "TR8: An R Package for Easily Retrieving Plant Species Traits." Methods in Ecology and Evolution 6, no. 3 (April 10, 2019): 1-26. doi:10.1111/2041-210x.12327.
+
+Fitter, A. H. and Peat, H. J., 1994, The Ecological Flora Database, J. Ecol., 82,: 415-425. http://www.ecoflora.co.uk
+
+Kleyer,M., Bekker, R.M, Knevel, I.C., Bakker, J.P., Thompson, K., Sonnenschein, M., Poschlod, P., Van Groenendael, J.M., Klimes, L., Klinesova, J., Klotz, S., Rusch, G.M., Hermy, M., Adriaens, D., Boedeltje, G., Bossuyt, B., Dannemann, A., Endels, P., Gotzenberber, L., Hodgson, J.G., Jackel, A-K., Kuhn, I., Kunzmann, D., Ozinga, W.A., Romermann, C., Stadler, M., Schlegelmilch, J., Steedem, H.J., Tackenberg, O., Wilmann, B., Cornelissen, J.H.C., Ericksson, O., Garnier, E., Peco, B. (2008): The LEDA Traitbase: A database of life-history traits of Northwest European flora. Journal of Ecology 96: 1266-1274.
+Last Update: October 28th, 2008. https://uol.de/en/biology/landeco/research/projects/leda/
+
+Klotz, S., Kühn, I. & Durka, W. [Hrsg.] (2002): BIOLFLOR - Eine Datenbank zu biologisch-ökologischen Merkmalen der Gefäßpflanzen in Deutschland. - Schriftenreihe für Vegetationskunde 38. Bonn: Bundesamt für Naturschutz. https://www.ufz.de/biolflor/index.jsp
 
 ## Acknowledgements
 We would like to thank Dr. Emily Curd and Daniel Chavez for their suggestions and guidance towards the completion of this project.
 
-## Citing
+## Citing PITA
 Coming Soon
 
 
