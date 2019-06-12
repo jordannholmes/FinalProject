@@ -13,7 +13,19 @@ Jordan Holmes
 ## Introduction
 
 ### Background
-This program takes publicly available databases and allows the user to easily retrieve trait data of a desired plant species. The TR8 program can be utilized by plant ecologists when an accumulation of 'traits' data about plant species needs to be collected from various databases. The available databases where TR8 obtains the functional traits data for plant species are: Biolflor (Klotz, Kuhn & Durka 2002), The Ecological Flora of the British Isles (Fitter &Peat 1994), LEDA traitbase (Kleyer et al. 2008), Ellenberg values for Italian Flora (Pignatti, Menegoni & Pietrosanti 2005), Flowering period for Italian Flora (Pignatti, Menegoni & Pietrosanti (2005), data retrieved from http://luirig.altervista.org/), Mycorrhizal intensity databases (Akhmetzhanova et al. 2012), MycoFlor (Hempel et al. 2013), Catminat (Julve 20140, BROT (B. Paula and J.G. Pausas 2013). The main purpose of this program is to obtain data from the TR8 package in the R software and format in such a way that makes it easier for a user to find information pertaining to a component or trait of a specific plant species. For the purposes of this program, the input data is an eDNA / anacapa output table.
+This program takes publicly available databases and allows the user to easily retrieve trait data of a desired plant species. The TR8 program can be utilized by plant ecologists when an accumulation of 'traits' data about plant species needs to be collected from various databases. The available databases where TR8 obtains the functional traits data for plant species include the following: 
+
+Biolflor (Klotz, Kuhn & Durka 2002)
+BROT (B. Paula and J.G. Pausas 2013)
+Catminat (Julve 2014)
+ECOFLORA (Fitter & Peat 1994)
+Ellenberg values for Italian Flora (Pignatti, Menegoni & Pietrosanti 2005)
+Flowering period for Italian Flora (Pignatti, Menegoni & Pietrosanti (2005), data from http://luirig.altervista.org/)
+LEDA traitbase (Kleyer et al. 2008)
+MycoFlor (Hempel et al. 2013)
+Mycorrhizal intensity databases (Akhmetzhanova et al. 2012)
+
+The main purpose of this program is to obtain data from the TR8 package in the R software and format in such a way that makes it easier for a user to find information pertaining to a component or trait of a specific plant species. For the purposes of this program, the input data is an eDNA / anacapa output table.
 
 ## Dependencies
 This program has two parts:
@@ -100,7 +112,7 @@ BROT: S. Paula and J.G. Pausas. BROT: a plant trait database for Mediterranean B
 
 Catminat: P. Julve. Baseflor. index botanique, ´ecologique et chorologique de la flore de france. http://perso.wanadoo.fr/philippe.julve/catminat.htm, 26 November 2014.
 
-ECOFLORA: Fitter, A.H. & Peat, H.J. (1994) The Ecological Flora Database. Journal of Ecology, 82, 415–425.
+ECOFLORA: Fitter, A.H. & Peat, H.J. (1994) The Ecological Flora Database. Journal of Ecology, 82, 415–425. http://www.ecoflora.co.uk
 
 Ellenberg values for Italian Flora: S. Pignatti, P. Menegoni, and S. Pietrosanti. Biondicazione attraverso le piante vascolari. Valori di indicazione secondo Ellenberg (Zeigerwerte) per le specie della Flora d’Italia. Braun-Blanquetia, 39:97, 2005.
 
@@ -110,8 +122,6 @@ MycoFlor: Stefan Hempel, Lars G¨otzenberger, Ingolf Kuhn, Stefan G Michalski,Ma
 
 Mycorrhizal Intensity Databases: A.A. Akhmetzhanova, N. A. Soudzilovskaia, V. G. Onipchenko, W.K. Cornwell, V.A. Agafonov, I.A. Selivanov, and J. H.C. Cornelissen. A rediscovered treasure: mycorrhizal intensity database for 3000 vascular plant
 species across the former Soviet Union: Ecological archives e093-059. Ecology, 93(3):689–690, 2012.
-
-The Ecological Flora Database: http://www.ecoflora.co.uk
 
 The LEDA Traitbase: Kleyer, M., Bekker, R., Knevel, I., Bakker, J., Thompson, K., Sonnenschein, M. et al. (2008) The LEDA Traitbase: a database of life-history traits of the Northwest European flora. Journal of Ecology, 96, 1266–1274. http://www.leda-traitbase.org/LEDAportal/ 
 
