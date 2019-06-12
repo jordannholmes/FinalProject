@@ -15,15 +15,15 @@ Jordan Holmes
 ### Background
 This program takes publicly available databases and allows the user to easily retrieve trait data of a desired plant species. The TR8 program can be utilized by plant ecologists when an accumulation of 'traits' data about plant species needs to be collected from various databases. The available databases where TR8 obtains the functional traits data for plant species include the following: 
 
-###Biolflor (Klotz, Kuhn & Durka 2002)
-###BROT (B. Paula and J.G. Pausas 2013)
-###Catminat (Julve 2014)
-###ECOFLORA (Fitter & Peat 1994)
-###Ellenberg values for Italian Flora (Pignatti, Menegoni & Pietrosanti 2005)
-###Flowering period for Italian Flora (Pignatti, Menegoni & Pietrosanti (2005), data from http://luirig.altervista.org/)
-###LEDA traitbase (Kleyer et al. 2008)
-###MycoFlor (Hempel et al. 2013)
-###Mycorrhizal intensity databases (Akhmetzhanova et al. 2012)
+### Biolflor (Klotz, Kuhn & Durka 2002)
+### BROT (B. Paula and J.G. Pausas 2013)
+### Catminat (Julve 2014)
+### ECOFLORA (Fitter & Peat 1994)
+### Ellenberg values for Italian Flora (Pignatti, Menegoni & Pietrosanti 2005)
+### Flowering period for Italian Flora (Pignatti, Menegoni & Pietrosanti (2005), data from http://luirig.altervista.org/)
+### LEDA traitbase (Kleyer et al. 2008)
+### MycoFlor (Hempel et al. 2013)
+### Mycorrhizal intensity databases (Akhmetzhanova et al. 2012)
 
 The main purpose of this program is to obtain data from the TR8 package in the R software and format in such a way that makes it easier for a user to find information pertaining to a component or trait of a specific plant species. For the purposes of this program, the input data is an eDNA / anacapa output table.
 
