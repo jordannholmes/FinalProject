@@ -20,7 +20,7 @@ This program takes publicly available databases and allows the user to easily re
 - Catminat (Julve 2014)
 - ECOFLORA (Fitter & Peat 1994)
 - Ellenberg values for Italian Flora (Pignatti, Menegoni & Pietrosanti 2005)
-- Flowering period for Italian Flora (Pignatti, Menegoni & Pietrosanti (2005), data from http://luirig.altervista.org/)
+- Flowering period for Italian Flora (Pignatti, Menegoni & Pietrosanti 2005, data from http://luirig.altervista.org/)
 - LEDA traitbase (Kleyer et al. 2008)
 - MycoFlor (Hempel et al. 2013)
 - Mycorrhizal intensity databases (Akhmetzhanova et al. 2012)
@@ -28,7 +28,7 @@ This program takes publicly available databases and allows the user to easily re
 The main purpose of this program is to obtain data from the TR8 package in the R software and format in such a way that makes it easier for a user to find information pertaining to a component or trait of a specific plant species. For the purposes of this program, the input data is an eDNA / anacapa output table.
 
 ## Dependencies
-This program has two parts:
+This program has two parts, both of which can be run in Shell:
 1) Hoffman2
 2) R
 
@@ -45,22 +45,7 @@ The flow of the program is as follows:
 
 5) Deletes any duplicate species input. Lists only uniques Genus and Species combinations.
 
-6) RStudio: Creates a table of user-specified relevant ecological information for each unique genus and species with TR8 package.
-
-### Install TR8
-``` {r}
-install.packages("TR8")
-```
-
-### Install GitHub for Pushing Analysis
-``` {r}
-install_github("roponsci/TR8")
-```
-
-### Load Desired Library
-``` {r}
-library("TR8")
-```
+6) R / RStudio: Creates a table of user-specified relevant ecological information (maximum height, minimum height, etc.) for each unique genus and species.
 
 ## Instructions
 Our ultimate goal is to obtain only the unique genus and species combinations. After this
@@ -104,7 +89,7 @@ Our Final Output is as follows:
 These steps can be found within the Weekly_Command_Scripts file. Specifically, the final output can be found within Weekly_Data_Output/README_Week10_Data.txt or Vignette/Expected_Output.txt
 
 ## References
-Biolflor https://www.ufz.de/biolflor/index.jsp
+Biolflor: Klotz, S., Kuhn, I., Durka, W. (2002) BIOLFLOR - Eine Datenbank zu biologi- € sch-okologischen Merkmalen zur Flora von Deutschland. € Schriftenreihe fur€ Vegetationskunde, 38, 1–333. https://www.ufz.de/biolflor/index.jsp
 
 Bocci, Gionata. "TR8: An R Package for Easily Retrieving Plant Species Traits." Methods in Ecology and Evolution 6, no. 3 (April 10, 2019): 1-26. doi:10.1111/2041-210x.12327.
 
