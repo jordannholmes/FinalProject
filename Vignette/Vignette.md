@@ -11,7 +11,7 @@ This Vignette Directory includes the following:
 - The list of unique Genus, Species names extracted from the sample dataset after running Command.sh.
 - This list is extracted from the sample dataset Test_Set.txt.
 ### RStudio Directory: 
-- RStudio_Analysis.Rmd: List of commands to be run in RStudio, if user preferred this method over running in Hoffman2.
+- RStudio_Analysis.Rmd: List of commands to be run in RStudio, if user preferred over running in Hoffman2.
 - RStudio_Output.md: Example output table, when run in RStudio.
 
 # Running PITA - Sample Datatset
