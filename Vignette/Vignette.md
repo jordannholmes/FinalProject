@@ -14,13 +14,17 @@ This Vignette Directory includes the following:
 # Running PITA - Sample Datatset
 1) Log into the UCLA Hoffman2 server. The server will allow the user to utilize Bash.
 2) Clone the PITA directory into Hoffman2 with the following command:
-    
+```
     git clone https://github.com/jordannholmes/FinalProject.git
-
+```
 3) Use the command below to enter the FinalProject/Vignette directory.
-
+```
     cd FinalProject/Vignette
-    
+```   
 4) To run the PITA program, use the command below. This will run the command script on the sample data and produce an output.
-
+```
     sh Commands.sh Test_Script.txt
+```
+
+# Expected Program Output
+After the program has finished running, the output file...
