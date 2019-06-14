@@ -68,7 +68,7 @@ denoted by a blank line:
 ## Expected Output
 For the expected output, a file is created with a list of unique **genuses** and **species** names taken from the dataset.
 
-Our Final Output is as follows:
+Our Final Output file prints the species as follows:
 
 - Anomobryum auratum
 - Artemisia californica
@@ -82,7 +82,7 @@ Our Final Output is as follows:
 - Ptychostomum funkii
 - Tetracystis pampae
 
-These steps can be found within the Weekly_Command_Scripts file. Specifically, the final output can be found within Weekly_Data_Output/README_Week10_Data.txt or Vignette/Expected_Output.txt
+These steps can be found within the Weekly_Command_Scripts file. Specifically, the final output file can be found within Weekly_Data_Output/README_Week10_Data.txt or Vignette/Expected_Output.txt.
 
 ## References
 Biolflor: Klotz, S., Kuhn, I., Durka, W. (2002) BIOLFLOR - Eine Datenbank zu biologi- € sch-okologischen Merkmalen zur Flora von Deutschland. € Schriftenreihe fur€ Vegetationskunde, 38, 1–333. https://www.ufz.de/biolflor/index.jsp
