@@ -81,9 +81,9 @@ If done in RStudio: You do not have to load R, but still must install the TR8 an
 ```
    cd FinalProject/Vignette
 ```
-To run the PITA program, use the command below. This will run the command script on the sample data and produce an output.
+4) To run the PITA program, use the command below. This will run the command script on the sample data and produce an output.
 ```
-   sh Commands.sh Test_Script.txt
+   sh Commands.sh Test_Set.txt
 ```  
 NOTE: This can only be done if the user is within the ~/FinalProject/Vignette directory within Hoffman2.
 
