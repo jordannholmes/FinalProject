@@ -14,7 +14,7 @@ Jordan Holmes
 ## Introduction
 
 ### Background
-This program takes publicly available databases and allows the user to easily retrieve trait data of a desired plant species. The TR8 program can be utilized by plant ecologists when an accumulation of 'traits' data about plant species needs to be collected from various databases. The available databases where TR8 obtains the functional traits data for plant species include the following: 
+This program takes publicly available databases and allows the user to easily retrieve trait data of a desired plant Genus, Species. The TR8 program can be utilized by plant ecologists when an accumulation of trait data about plant Genus, Species needs to be collected from various databases. The available databases where TR8 obtains the functional trait data for plant Genus, Species includes the following: 
 
 - Biolflor (Klotz, Kuhn & Durka 2002)
 - BROT (B. Paula and J.G. Pausas 2013)
@@ -26,52 +26,52 @@ This program takes publicly available databases and allows the user to easily re
 - MycoFlor (Hempel et al. 2013)
 - Mycorrhizal intensity databases (Akhmetzhanova et al. 2012)
 
-The main purpose of this program is to obtain data from the TR8 package in the R software and format in such a way that makes it easier for a user to find and organize information pertaining to a trait of a specific plant species. For the purposes of this program, the input data is an eDNA / anacapa output table.
+The main purpose of this program is to obtain data from the TR8 package in the R software and format in such a way that makes it easier for a user to find and organize information pertaining to a trait of a specific plant Genus, Species. For the purposes of this program, the input data is an eDNA / anacapa output table.
 
 ## Dependencies
-This program has two parts, both of which can be run in Shell:
+This program has two required programs, both of which can be run in Shell:
 1) Hoffman2
-2) R
+2) R (R Core Team 2018)
+
+This program has one required file, located within Github:
+1) Commands.sh - Bash script containing the code, used for organizing a dataset to specify Genus, Species and creating a csv table with the desired traits of such list of Genus, Species.
 
 ## Program Workflow
 The flow of the program is as follows:
 
-1) Reads the input file of the Test_Set.txt (within Vignette Directory) provided by Github.
+1) Reads the input file of the Test_Set.txt provided within Github (within Vignette Directory).
 
-2) Recognizes and removes single semicolons and blank spaces from OriginalData.txt. 
+2) Recognizes and removes single semicolons and blank spaces from Test_Set.txt. 
 
-3) Tabs between remaining names of taxonomy information. Useful in determining the Genus and Species names of each sample.
+3) Tabs between remaining names of taxonomy information. Useful in determining the Genus, Species names of each sample.
 
-4) Deletes all information other that the Genus and Species names.
+4) Deletes all information other than the Genus, Species names.
 
-5) Deletes any duplicate species input. Lists only uniques Genus and Species combinations.
+5) Deletes any duplicate Genus, Species input. Lists only unique Genus, Species combinations.
 
-6) R / RStudio: Creates a table of user-specified relevant ecological information (maximum height, minimum height, etc.) for each unique genus and species.
+6) R / RStudio: Loads R. Also installs and loads the necessary packages: TR8 and devtools.
 
-## Instructions
-Our ultimate goal is to obtain only the unique genus and species combinations. After this
-we will input this data to RStudio. Steps in Shell are as follows:
+7) Defines variable of my_species with the list of Genus, Species found from the dataset analysis done in the bash script.
 
-1) Remove lines with ';' and lines with no taxonomy provided,
-denoted by a blank line: 
-- This is fulfilled through the ***grep*** command.
+8) Defines variable of my_traits with a list of desired traits, chosen by the user, of the Genus, Species list.
 
-2) Create tabs in between taxonomy categories of the remaining data: 
-- This is fulfilled through the ***sed*** command.
+9) R / RStudio: Creates a table of user-specified relevant trait information (maximum height, minimum height, etc.) for each unique Genus, Species.
 
-3) Obtain Plant Species name: 
-- This is fulfilled through the ***awk*** command.
-
-4) Obtain Unique Species name: 
-- This is fulfilled through the ***sort*** command.
-
-5) Obtain only Species name, no Numerical values: 
-- This is fulfilled through the ***grep*** command.
+## Instructions for Running the Program
+To run this program, the command line should read:
+   
+   sh Commands.sh Test_Set.txt
+   
+This can only be done if the user is within the ~/FinalProject/Vignette directory within Shell in Hoffman2.
 
 ## Expected Output
-For the expected output, a file is created with a list of unique **genuses** and **species** names taken from the dataset.
 
-Our Final Output file prints the species as follows:
+### Bash Script
+For the expected output of the bash script, six text files should be created after running the program. Each of the files will have the format NewData#0.txt. 
+
+A list of unique Genus, Species names extracted from the dataset will be in the last text file, titled NewData60.txt.
+
+Our Final Output text file, within NewData60.txt, prints the species as follows (for reference):
 
 - Anomobryum auratum
 - Artemisia californica
@@ -85,7 +85,8 @@ Our Final Output file prints the species as follows:
 - Ptychostomum funkii
 - Tetracystis pampae
 
-These steps can be found within the Weekly_Command_Scripts file. Specifically, the final output file can be found within Weekly_Data_Output/README_Week10_Data.txt or Vignette/Expected_Output.txt.
+### R Script
+For the expected output of the R script, a csv table is created ........
 
 ## References
 Biolflor: Klotz, S., Kuhn, I., Durka, W. (2002) BIOLFLOR - Eine Datenbank zu biologi- € sch-okologischen Merkmalen zur Flora von Deutschland. € Schriftenreihe fur€ Vegetationskunde, 38, 1–333. https://www.ufz.de/biolflor/index.jsp
@@ -106,6 +107,8 @@ MycoFlor: Stefan Hempel, Lars G¨otzenberger, Ingolf Kuhn, Stefan G Michalski,Ma
 
 Mycorrhizal Intensity Databases: A.A. Akhmetzhanova, N. A. Soudzilovskaia, V. G. Onipchenko, W.K. Cornwell, V.A. Agafonov, I.A. Selivanov, and J. H.C. Cornelissen. A rediscovered treasure: mycorrhizal intensity database for 3000 vascular plant
 species across the former Soviet Union: Ecological archives e093-059. Ecology, 93(3):689–690, 2012.
+
+R Core Team. 2014. R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL http://www.R-project.org/.
 
 The LEDA Traitbase: Kleyer, M., Bekker, R., Knevel, I., Bakker, J., Thompson, K., Sonnenschein, M. et al. (2008) The LEDA Traitbase: a database of life-history traits of the Northwest European flora. Journal of Ecology, 96, 1266–1274. http://www.leda-traitbase.org/LEDAportal/ 
 
