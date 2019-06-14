@@ -1,15 +1,9 @@
 # Plants In Trait Analysis (PITA)
 
 ## Authors
-Nicole Diaz
+Nicole Diaz (nicolediaz1@g.ucla.edu)
 
-   - B.S. in Biology, expected June 2021, UCLA
-   - nicolediaz1@g.ucla.edu
-
-Jordan Holmes
-
-   - B.S. in Biology, expected June 2020, UCLA
-   - jordannholmes@g.ucla.edu
+Jordan Holmes (jordannholmes@g.ucla.edu)
 
 ## Introduction
 
