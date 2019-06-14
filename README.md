@@ -30,7 +30,7 @@ This project has two required program dependencies:
 2) R: Scripting language (R Core Team 2018)
 
 This program has one required file, located within Github:
-1) Commands.sh - Bash script containing the code, used for organizing a dataset to specify Genus, Species and creating a csv table with the desired trait data of identified species. Found within ~/FinalProject/Vignette.
+1) Commands.sh: Bash script containing the code, used for organizing a dataset to specify Genus, Species and creating a csv table with the desired trait data of identified species. Found within ~/FinalProject/Vignette.
 
 ## Program Workflow
 The flow of the program is as follows:
