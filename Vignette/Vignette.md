@@ -48,3 +48,5 @@ grep -v "[0-9]" NewData50.txt > NewData60.txt
 ``` {r}
 echo "done"
 ```
+
+*** The input dataset file "Test_Set.txt" and the expected output file "Expected_Output.txt" can be found within the directory titled "Vignette."  ***
