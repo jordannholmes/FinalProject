@@ -8,7 +8,7 @@ echo "loading....."
 
 
 #grep -v ";;"
-grep -v ";$" OriginalData.txt  > NewData10.txt
+grep -v ";$" Test_Set.txt  > NewData10.txt
 #grep -v "NA"
 grep -v "sp." NewData10.txt > NewData20.txt
 
