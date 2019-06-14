@@ -62,12 +62,12 @@ The flow of the program is as follows:
 ## Install TR8 and devtools
 
 If done in Hoffman 2: You must load R within Hoffman2. This must be done prior to running the program to ensure the entire bash script is run properly.
-
+```
   module load R
   R
       install.packages("TR8")
       install.packages("devtools")
-
+```
 If done in RStudio: You do not have to load R, but still must install the TR8 and devtools packages.
 
 ## Instructions for Running the Program
