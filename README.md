@@ -142,6 +142,6 @@ The LEDA Traitbase: Kleyer, M., Bekker, R., Knevel, I., Bakker, J., Thompson, K.
 We would like to thank Dr. Emily Curd and Daniel Chavez for their suggestions and guidance towards the completion of this project.
 
 ## Citing PITA
-Coming Soon
+See DOI
 
 
