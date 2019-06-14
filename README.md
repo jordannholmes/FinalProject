@@ -47,7 +47,7 @@ The flow of the program is as follows:
 
 ## Instructions
 Our ultimate goal is to obtain only the unique genus and species combinations. After this
-we will input this data to RStudio. Steps are as follows:
+we will input this data to RStudio. Steps in Shell are as follows:
 
 1) Remove lines with ';' and lines with no taxonomy provided,
 denoted by a blank line: 
