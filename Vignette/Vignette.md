@@ -5,7 +5,7 @@ The main purpose of this program is to obtain data from the TR8 package in the R
 - This command runs the Test.txt and removes the lines with ';;', ';', 'NA', and lines with no taxonomy provided, denoted by a blank line. Each command will print output into a new text file. 
 
 **For the purposes of this project, and after running RStudio analysis, it has been decided that we will keep lines with ;; and NA in order to find more Genus.Species within our original dataset to be anaylyzed.** 
-***(this is denoted by the hashtags "#" prior to certain grep functions)***
+***(This is denoted by the hashtags "#" prior to certain grep functions. If you would like to eliminate the lines with ;; and NA for your personal dataset, remove the # prior to running commands.)***
 
 ``` {r}
 #grep -v ";;"
