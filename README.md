@@ -14,9 +14,9 @@ Jordan Holmes
 ## Introduction
 
 ### Background
-This project utilizes data found with Environmental DNA (eDNA) analysis, specifically of plant species. This type of DNA serves as a type of genetic marker that can be used to identify specific plant species based on traces of their unique genetic material. By identifying the plant species, ecologists have the ability to monitor biodiversity and practice proper conservation tactics to preserve plant species in a tested area. eDNA of plants can be found in the forms of pollen, spores, scales, etc. in geographic areas of study. For the purposes of this program, the input data is an eDNA / anacapa output table.
+This project utilizes data found with Environmental DNA (eDNA) analysis, specifically of plant species. This source of DNA serves as a type of genetic marker that can be used to identify specific plant species based on traces of their unique genetic material. By identifying the plant species, ecologists have the ability to monitor biodiversity and practice proper conservation tactics to preserve plant species in a tested area. eDNA of plants can be found in the forms of pollen, spores, scales, etc. in geographic areas of study. For the purposes of this program, the input data is an eDNA / anacapa output table.
 
-This program takes publicly available databases and allows the user to easily retrieve trait data of a desired plant species found within the dataset. The TR8 program within R can be utilized by plant ecologists when an accumulation of trait data about plant species needs to be collected from various databases at once. The available databases where TR8 obtains the functional data for plant species includes the following: 
+This program takes publicly available databases and allows the user to easily retrieve trait data of a plant species found within a dataset. The TR8 program within R can be utilized by plant ecologists when an accumulation of trait data about plant species needs to be collected from various databases at once. The available databases where TR8 obtains the functional data for plant species includes the following: 
 
 - Biolflor (Klotz, Kuhn & Durka 2002)
 - BROT (B. Paula and J.G. Pausas 2013)
@@ -28,15 +28,15 @@ This program takes publicly available databases and allows the user to easily re
 - MycoFlor (Hempel et al. 2013)
 - Mycorrhizal intensity databases (Akhmetzhanova et al. 2012)
 
-The main purpose of this program is to obtain data from the TR8 package in the R software about desired species and format this information in a table. This is used to simplify and organize trait data pertaining to multiple plant species all in one program.
+The main purpose of this program is to obtain and organize data about species found within an eDNA / anacapa output table. From there, the program will utilize the TR8 package in the R software to find desired trait data of each species found and format this information into a table. This program is overall used to simplify, identify, and organize trait data pertaining to multiple plant species all in one program.
 
 ## Dependencies
-This program has two required dependencies:
-1) Hoffman2: Shared cluster system, utilies by the Universites of California
+This project has two required program dependencies:
+1) Hoffman2: Shared cluster system, utilized by the Universites of California
 2) R: Scripting language (R Core Team 2018)
 
 This program has one required file, located within Github:
-1) Commands.sh - Bash script containing the code, used for organizing a dataset to specify Genus, Secies and creating a csv table with the desired traits of such list of Genus, Species. Found within ~/FinalProject/Vignette.
+1) Commands.sh - Bash script containing the code, used for organizing a dataset to specify Genus, Species and creating a csv table with the desired trait data of identified species. Found within ~/FinalProject/Vignette.
 
 ## Program Workflow
 The flow of the program is as follows:
@@ -58,6 +58,17 @@ The flow of the program is as follows:
 8) Defines variable of my_traits with a list of desired traits, chosen by the user, of the Genus, Species list.
 
 9) R / RStudio: Creates a table of user-specified relevant trait information (maximum height, minimum height, etc.) for each unique Genus, Species.
+
+## Install TR8 and devtools
+
+If done in Hoffman 2: You must load R within Hoffman2. This must be done prior to running the program to ensure the entire bash script is run properly.
+
+  module load R
+  R
+      install.packages("TR8")
+      install.packages("devtools")
+
+If done in RStudio: You do not have to load R, but still must install the TR8 and devtools packages.
 
 ## Instructions for Running the Program
 To run this program, the command line should read:
