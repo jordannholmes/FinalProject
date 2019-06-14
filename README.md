@@ -53,9 +53,9 @@ The flow of the program is as follows:
 
 6) R / RStudio: Loads R. Also installs and loads the necessary packages: TR8 and devtools.
 
-7) Defines variable of my_species with the list of Genus, Species found from the dataset analysis done in the bash script.
+7) Defines variable 'my_species' with the list of Genus, Species found from the dataset analysis done in the bash script.
 
-8) Defines variable of my_traits with a list of desired traits, chosen by the user, of the Genus, Species list.
+8) Defines variable 'my_traits' with a list of desired traits, chosen by the user, of the Genus, Species list.
 
 9) R / RStudio: Creates a table of user-specified relevant trait information (maximum height, minimum height, etc.) for each unique Genus, Species.
 
