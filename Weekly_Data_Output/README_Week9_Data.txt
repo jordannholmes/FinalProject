@@ -1,8 +1,0 @@
-argenteum
-auratum
-dichotomum
-funkii
-gelatinosa
-massjukiae
-oleofaciens
-signiensis
