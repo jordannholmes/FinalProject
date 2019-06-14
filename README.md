@@ -61,21 +61,31 @@ The flow of the program is as follows:
 
 ## Install TR8 and devtools
 
-If done in Hoffman 2: You must load R within Hoffman2. This must be done prior to running the program to ensure the entire bash script is run properly.
+If done in Hoffman 2: You must load R within Hoffman2. This must be done prior to running the program to ensure the bash script is run in its entirety.
 ```
   module load R
-  R
-      install.packages("TR8")
-      install.packages("devtools")
+      > install.packages("TR8")
+      > install.packages("devtools")
 ```
-If done in RStudio: You do not have to load R, but still must install the TR8 and devtools packages.
+If done in RStudio: You do not have to load R, but still must install the TR8 and devtools packages for analysis.
 
 ## Instructions for Running the Program
-To run this program, the command line should read:
-   
-   sh Commands.sh Test_Set.txt
-   
-This can only be done if the user is within the ~/FinalProject/Vignette directory within Hoffman2.
+
+1) Log into the UCLA Hoffman2 server. The server will allow the user to utilize Bash.
+
+2) Clone the PITA directory into Hoffman2 with the following command:
+```
+   git clone https://github.com/jordannholmes/FinalProject.git
+```
+3) Use the command below to enter the FinalProject/Vignette directory.
+```
+   cd FinalProject/Vignette
+```
+To run the PITA program, use the command below. This will run the command script on the sample data and produce an output.
+```
+   sh Commands.sh Test_Script.txt
+```  
+NOTE: This can only be done if the user is within the ~/FinalProject/Vignette directory within Hoffman2.
 
 ## Expected Output
 
@@ -84,7 +94,7 @@ For the expected output of the bash script, six text files should be created aft
 
 A list of unique Genus, Species names extracted from the dataset will be in the last text file, titled NewData60.txt.
 
-Our Final Output text file, within NewData60.txt, prints the species as follows (for reference):
+For Reference: Our Final Output text file, within NewData60.txt, prints the species as follows:
 
 - Anomobryum auratum
 - Artemisia californica
@@ -100,6 +110,9 @@ Our Final Output text file, within NewData60.txt, prints the species as follows 
 
 ### R Script
 For the expected output of the R script, a csv table is created ........
+
+
+NOTE: The Bash script and the R script are both found within Commands.sh. We have separated the Expected Output into two sections to specify the purposes of each.
 
 ## References
 Biolflor: Klotz, S., Kuhn, I., Durka, W. (2002) BIOLFLOR - Eine Datenbank zu biologi- € sch-okologischen Merkmalen zur Flora von Deutschland. € Schriftenreihe fur€ Vegetationskunde, 38, 1–333. https://www.ufz.de/biolflor/index.jsp
