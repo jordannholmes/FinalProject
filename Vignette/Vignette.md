@@ -3,7 +3,7 @@ This Vignette Directory includes the following:
 
 ### Test_Set.txt: 
 - A sample dataset in the format required for PITA to work.
-- NOTE: The dataset included is the exact one we ran for our program. Since it is only 150 lines and gives an output of 9 Genus, Species names, we decided to provide the complete dataset to ensure a respectable output was provided for users trying out the program.
+- ***NOTE:*** The dataset included is the exact one we ran for our program. Since it is only 150 lines and gives an output of 9 Genus, Species names, we decided to provide the complete dataset to ensure a respectable output was provided for users trying out the program.
 ### Commands.sh: 
 - Commands run on a sample dataset to extract desired data of Genus, Species names.
 - This example completes commands on Test_Set.txt.
