@@ -54,4 +54,4 @@ This Vignette Directory includes the following:
 ```
 
 # Expected Program Output
-After the program has finished running, the output file will consist of a cvs table with the name of the Genus, Species. Trait data, chosen by the user, will be printed for each of the Genus, Species to fill in and complete the table. It is possible some Genus, Species will not have data reported for every desired traits. This will be denoted with 'NA'.
+After the program has finished running, the output file will consist of a cvs table with the name of the Genus, Species. Trait data, chosen by the user, will be printed for each of the Genus, Species to fill in and complete the table. It is possible some Genus, Species will not have data reported for every desired traits. This will be denoted with 'NA'. This is true of both the program when run in R and the program when run in RStudio for TR8 analysis.
