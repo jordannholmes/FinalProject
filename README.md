@@ -65,9 +65,9 @@ If done in Hoffman 2: User must load R within Hoffman2. This should be done prio
 If done in RStudio: User does not have to load R, but still must install the TR8 and devtools packages for analysis. These steps are also included in RStudio_Analysis.Rmd. It is suggeted to install these packages prior to running RStudio_Analysis, however, to ensure that each package is properly installed.
 
 ## Choosing Traits for Analysis
-In order to see the list of possible traits that can be used for analysis, run the following command in R. If necessary, load R. 
+In order to see the list of possible traits that can be used for analysis, run the following command in R. If necessary, load R (see instructions in above). 
 
-This list will include the short code to the trait name, the decription of the trait name, and the database the trait information i being pulled from.
+This list will include the short code to the trait name, the decription of the trait name, and the database the trait information will be pulled from.
 ```
 head(available_tr8)
 ```
