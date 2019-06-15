@@ -71,6 +71,7 @@ This list will include the short code to the trait name, the decription of the t
 ```
 head(available_tr8)
 ```
+***Note:*** This can only be done if the Tr8 package was suggessful installed.
 
 ## Instructions for Running the Program
 
@@ -88,7 +89,7 @@ head(available_tr8)
 ```
    sh Commands.sh Test_Set.txt
 ```  
-NOTE: This can only be done if the user is within the ~/FinalProject/Vignette directory within Hoffman2.
+***NOTE:*** This can only be done if the user is within the ~/FinalProject/Vignette directory within Hoffman2.
 
 ## Expected Output
 
@@ -115,7 +116,7 @@ For Reference: Our Final Output text file, within NewData60.txt, prints the spec
 For the expected output of the R script, a csv table is created with the names of the Genus, Species. Trait data, chosen by the user, will be printed for each of the Genus, Species to complete the table. It is possible some Genus, Species will not have data reported for every desired traits. This will be denoted with 'NA'.
 
 
-NOTE: The Bash script and the R script are both found within Commands.sh. We have separated the Expected Output into two sections to specify the purposes of each. However, after the program has finished running, the expected output detailed in the R Script section will be the final product for the program.
+***NOTE:*** The Bash script and the R script are both found within Commands.sh. We have separated the Expected Output into two sections to specify the purposes of each. However, after the program has finished running, the expected output detailed in the R Script section will be the final product for the program.
 
 ## References
 Biolflor: Klotz, S., Kuhn, I., Durka, W. (2002) BIOLFLOR - Eine Datenbank zu biologi- € sch-okologischen Merkmalen zur Flora von Deutschland. € Schriftenreihe fur€ Vegetationskunde, 38, 1–333. https://www.ufz.de/biolflor/index.jsp
