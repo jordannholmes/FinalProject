@@ -1,20 +1,41 @@
 # Vignette
 This Vignette Directory includes the following:
 
+## Hoffman2_R
+-This directory contains the neccessary files to run the PITA program, assuming the TR8 package properly installs and loads within R.
+
+### Commands.sh: 
+- Commands run on a sample dataset to extract complete Genus, Species names and create a user friendly table of traits associated with found Genus, Species.
+- This example completes commands on Test_Set.txt.
+
+### Expected_Output_Bash.txt:
+- The list of unique Genus, Species names extracted from the sample dataset after running Command.sh. This list will be title NewData60.txt in the terminal after Commands.sh is run. This signifies the final Genus, Species list that will be used for trait analysis.
+
+### RScript.R
+- The list of R commands to be run in Commands.sh, which will allow the entire program to run in shell.
+
 ### Test_Set.txt: 
 - A sample dataset in the format required for PITA to work.
 - ***NOTE:*** The dataset included is the exact one we ran for our program. Since it is only 150 lines and gives an output of 9 Genus, Species names, we decided to provide the complete dataset to ensure a respectable output was provided for users trying out the program.
+
+## Hoffman2_RStudio
+
 ### Commands.sh: 
-- Commands run on a sample dataset to extract complete Genus, Species names.
+- Commands run on a sample dataset to extract complete Genus, Species names and create a user friendly table of traits associated with found Genus, Species.
 - This example completes commands on Test_Set.txt.
-### Expected_Output Directory:
-- Expected_Output_Bash.txt: The list of unique Genus, Species names extracted from the sample dataset after running Command.sh. This list will be title NewData60.txt in the terminal after Commands.sh is run. This signifies the final Genus, Species list that will be used for trait analysis.
-- Expected_Output_Overall.txt: This is the expected output after running the Commands.sh in its entirety.
-### RScript.R
-- The list of R commands to be run in Commands.sh, which will allow the entire program to run in shell.
-### RStudio Directory: 
-- RStudio_Analysis.Rmd: List of commands to be run in RStudio, if user preferred over running in Hoffman2.
-- RStudio_Output.md: Example output table, when run in RStudio.
+
+### Expected_Output_Bash.txt:
+- The list of unique Genus, Species names extracted from the sample dataset after running Command.sh. This list will be title NewData60.txt in the terminal after Commands.sh is run. This signifies the final Genus, Species list that will be used for trait analysis.
+
+### RStudio_Analysis.Rmd: 
+- List of commands to be run in RStudio, if user preferred over running in Hoffman2.
+
+### RStudio_Output.md: 
+- Example output table, when run in RStudio.
+
+### Test_Set.txt: 
+- A sample dataset in the format required for PITA to work.
+- ***NOTE:*** The dataset included is the exact one we ran for our program. Since it is only 150 lines and gives an output of 9 Genus, Species names, we decided to provide the complete dataset to ensure a respectable output was provided for users trying out the program.
 
 # Running PITA - Sample Datatset
 1) Log into the UCLA Hoffman2 server. The server will allow the user to utilize Bash.
