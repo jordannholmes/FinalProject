@@ -10,6 +10,8 @@ This Vignette Directory includes the following:
 ### Expected_Output_Bash.txt: 
 - The list of unique Genus, Species names extracted from the sample dataset after running Command.sh.
 - This list is extracted from the sample dataset Test_Set.txt.
+### Expected_Output_Bash.txt:
+- This is the expected output after running the Commands.sh in its entirety.
 ### RStudio Directory: 
 - RStudio_Analysis.Rmd: List of commands to be run in RStudio, if user preferred over running in Hoffman2.
 - RStudio_Output.md: Example output table, when run in RStudio.
