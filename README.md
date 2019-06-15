@@ -55,7 +55,9 @@ The flow of the program is as follows:
 
 ## Install TR8 and devtools
 
-If done in Hoffman 2: User must load R within Hoffman2. This should be done prior to running the program to ensure the bash script is run in its entirety. These steps are also included within Commands.sh. It is suggeted to install these packages prior to running Commands.sh, however, to ensure that each package is properly installed.
+If done in Hoffman 2: User must load R within Hoffman2. This should be done prior to running the program to ensure the bash script is run in its entirety. These steps are also included within Commands.sh. However, it is suggeted to install these packages prior to running Commands.sh to ensure that each package is properly installed. 
+
+***Note:*** Commands.sh cannot be run in the R language. User must return to shell in order to run the program.
 ```
   module load R
   R
