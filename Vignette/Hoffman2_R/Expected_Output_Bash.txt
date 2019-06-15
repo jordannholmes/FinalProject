@@ -1,4 +1,4 @@
-#This should be found within NewData60.txt.
+#This should be found within NewData60.txt after Commands.sh has been run.
 
 Anomobryum auratum
 Artemisia californica
