@@ -1,4 +1,5 @@
 # Plants In Trait Analysis (PITA)
+Zenodo DOI: 10.5281/zenodo.3246685
 
 ## Authors
 Nicole Diaz (nicolediaz1@g.ucla.edu)
@@ -153,6 +154,8 @@ The LEDA Traitbase: Kleyer, M., Bekker, R., Knevel, I., Bakker, J., Thompson, K.
 We would like to thank Dr. Emily Curd and Daniel Chavez for their suggestions and guidance towards the completion of this project.
 
 ## Citing PITA
-See DOI
+See DOI:
+
+10.5281/zenodo.3246685
 
 
