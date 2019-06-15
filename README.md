@@ -51,7 +51,7 @@ The flow of the program is as follows:
 
 8) Defines variable 'my_traits' with a list of desired traits, chosen by the user, of the Genus, Species list.
 
-9) R / RStudio: Creates a table of user-specified relevant trait information (maximum height, minimum height, etc.) for each unique Genus, Species.
+9) Creates a table of user-specified relevant trait information (maximum height, minimum height, etc.) for each unique Genus, Species.
 
 ## Install TR8 and devtools
 
