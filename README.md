@@ -8,7 +8,7 @@ Jordan Holmes (jordannholmes@g.ucla.edu)
 ## Introduction
 
 ### Background
-This project utilizes data found with Environmental DNA (eDNA) analysis, specifically of plant species. This source of DNA serves as a type of genetic marker that can be used to identify specific plant species based on traces of their unique genetic material. By identifying the plant species, ecologists have the ability to monitor biodiversity and practice proper conservation tactics to preserve plant species in a tested area. eDNA of plants can be found in the forms of pollen, spores, scales, etc. in geographic areas of study. For the purposes of this program, the input data is an eDNA / anacapa output table.
+This project utilizes data found with Environmental DNA (eDNA) analysis, specifically of plant species. This source of DNA serves as a type of genetic marker that can be used to identify specific plant species based on traces of their unique genetic material. By identifying the plant species, ecologists have the ability to monitor biodiversity and practice proper conservation tactics to preserve plant species in a tested area. eDNA of plants can be found in the forms of pollen, spores, scales, etc. in geographic areas of study. For the purposes of this program, the input data is an eDNA / anacapa output table consisting of 149 sample entries.
 
 This program takes publicly available databases and allows the user to easily retrieve trait data of a plant species found within a dataset. The TR8 program within R can be utilized by plant ecologists when an accumulation of trait data about plant species needs to be collected from various databases at once. The available databases where TR8 obtains the functional data for plant species includes the following: 
 
@@ -55,13 +55,22 @@ The flow of the program is as follows:
 
 ## Install TR8 and devtools
 
-If done in Hoffman 2: User must load R within Hoffman2. This must be done prior to running the program to ensure the bash script is run in its entirety.
+If done in Hoffman 2: User must load R within Hoffman2. This should be done prior to running the program to ensure the bash script is run in its entirety. These steps are also included within Commands.sh. It is suggeted to install these packages prior to running Commands.sh, however, to ensure that each package is properly installed.
 ```
   module load R
+  R
       > install.packages("TR8")
       > install.packages("devtools")
 ```
-If done in RStudio: User does not have to load R, but still must install the TR8 and devtools packages for analysis.
+If done in RStudio: User does not have to load R, but still must install the TR8 and devtools packages for analysis. These steps are also included in RStudio_Analysis.Rmd. It is suggeted to install these packages prior to running RStudio_Analysis, however, to ensure that each package is properly installed.
+
+## Choosing Traits for Analysis
+In order to see the list of possible traits that can be used for analysis, run the following command in R. If necessary, load R. 
+
+This list will include the short code to the trait name, the decription of the trait name, and the database the trait information i being pulled from.
+```
+head(available_tr8)
+```
 
 ## Instructions for Running the Program
 
@@ -103,10 +112,10 @@ For Reference: Our Final Output text file, within NewData60.txt, prints the spec
 - Tetracystis pampae
 
 ### R Script
-For the expected output of the R script, a csv table is created ........
+For the expected output of the R script, a csv table is created with the names of the Genus, Species. Trait data, chosen by the user, will be printed for each of the Genus, Species to complete the table. It is possible some Genus, Species will not have data reported for every desired traits. This will be denoted with 'NA'.
 
 
-NOTE: The Bash script and the R script are both found within Commands.sh. We have separated the Expected Output into two sections to specify the purposes of each.
+NOTE: The Bash script and the R script are both found within Commands.sh. We have separated the Expected Output into two sections to specify the purposes of each. However, after the program has finished running, the expected output detailed in the R Script section will be the final product for the program.
 
 ## References
 Biolflor: Klotz, S., Kuhn, I., Durka, W. (2002) BIOLFLOR - Eine Datenbank zu biologi- € sch-okologischen Merkmalen zur Flora von Deutschland. € Schriftenreihe fur€ Vegetationskunde, 38, 1–333. https://www.ufz.de/biolflor/index.jsp
