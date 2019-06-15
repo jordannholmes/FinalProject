@@ -73,7 +73,7 @@ This list will include the short code to the trait name, the decription of the t
 ```
 head(available_tr8)
 ```
-***Note:*** This can only be done if the Tr8 package was suggessful installed.
+***Note:*** This can only be done if the TR8 package was suggessful installed.
 
 ## Instructions for Running the Program
 
