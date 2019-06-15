@@ -8,11 +8,8 @@ This Vignette Directory includes the following:
 - Commands run on a sample dataset to extract complete Genus, Species names.
 - This example completes commands on Test_Set.txt.
 ### Expected_Output Directory:
-- Expected_Output_Bash.txt: 
-        - The list of unique Genus, Species names extracted from the sample dataset after running Command.sh.
-        - This list is extracted from the sample dataset Test_Set.txt.
-- Expected_Output_Overall.txt:
-        - This is the expected output after running the Commands.sh in its entirety.
+- Expected_Output_Bash.txt: The list of unique Genus, Species names extracted from the sample dataset after running Command.sh. This list is extracted from the sample dataset Test_Set.txt.
+- Expected_Output_Overall.txt: This is the expected output after running the Commands.sh in its entirety.
 ### RScript.R
 - The list of R commands to be run in Commands.sh, which will allow the entire program to run in shell.
 ### RStudio Directory: 
