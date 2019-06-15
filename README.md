@@ -1,5 +1,5 @@
 # Plants In Trait Analysis (PITA)
-Zenodo DOI: 10.5281/zenodo.3246685
+https://zenodo.org/record/3246685#.XQSRZG9Kg6U
 
 ## Authors
 Nicole Diaz (nicolediaz1@g.ucla.edu)
@@ -156,6 +156,5 @@ We would like to thank Dr. Emily Curd and Daniel Chavez for their suggestions an
 ## Citing PITA
 See DOI:
 
-10.5281/zenodo.3246685
-
+https://zenodo.org/record/3246685#.XQSRZG9Kg6U
 
