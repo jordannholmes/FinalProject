@@ -30,7 +30,7 @@ This project has two required program dependencies:
 2) R: Scripting language (R Core Team 2018)
 
 This program has one required file, located within Github:
-1) Commands.sh: Bash script containing the code, used for organizing a dataset to specify Genus, Species and creating a csv table with the desired trait data of identified species. Found within ~/FinalProject/Vignette.
+1) Commands.sh: Bash script containing the code, used for organizing a dataset to specify Genus, Species and creating a csv table with the desired trait data of identified species. Found within ~/FinalProject/Vignette/Hoffman2_R.
 
 ## Program Workflow
 The flow of the program is as follows:
@@ -55,7 +55,7 @@ The flow of the program is as follows:
 
 ## Install TR8 and devtools
 
-If done in Hoffman 2: User must load R within Hoffman2. This should be done prior to running the program to ensure the bash script is run in its entirety. These steps are also included within Commands.sh. However, it is suggeted to install these packages prior to running Commands.sh to ensure that each package is properly installed. 
+If done in Hoffman 2: User must load R within Hoffman2. This should be done prior to running the program to ensure the bash script is run in its entirety. These steps are also included within Commands.sh. However, it is suggeted to install these packages prior to running Commands.sh to ensure that each package is properly installed. If not, see FinalProject/Vignette/Hoffman2_RStudio.
 
 ***Note:*** Commands.sh cannot be run in the R language. User must return to shell in order to run the PITA program.
 ```
@@ -64,7 +64,7 @@ If done in Hoffman 2: User must load R within Hoffman2. This should be done prio
       > install.packages("TR8")
       > install.packages("devtools")
 ```
-If done in RStudio: User does not have to load R, but still must install the TR8 and devtools packages for analysis. These steps are also included in RStudio_Analysis.Rmd. It is suggeted to install these packages prior to running RStudio_Analysis, however, to ensure that each package is properly installed.
+If done in RStudio, using directory Hoffman2_RStudio: User does not have to load R, but still must install the TR8 and devtools packages for analysis. These steps are also included in FinalProject/Vignette/Hoffman2_RStudio/RStudio_Analysis.Rmd. It is suggeted to install these packages prior to running the commands within RStudio_Analysis.Rmd, however, to ensure that each package is properly installed.
 
 ## Choosing Traits for Analysis
 In order to see the list of possible traits that can be used for analysis, run the following command in R. If necessary, such as when working in Hoffman2, load R (see instructions above). 
@@ -74,7 +74,7 @@ This list will include the short code to the trait name, the decription of the t
 library('TR8')
 head(available_tr8)
 ```
-***Note:*** This can only be done if the TR8 package was suggessful installed and loaded in R. If working in RStudio, the TR8 package still must be installed and loaded. 
+***Note:*** This can only be done if the TR8 package was suggessful installed and loaded in R. If working in RStudio, the TR8 package still must be installed and loaded. The same commands are applicable to load available_tr8.
 
 ## Instructions for Running the Program
 
@@ -92,7 +92,7 @@ head(available_tr8)
 ```
    sh Commands.sh Test_Set.txt
 ```  
-***NOTE:*** This can only be done if the user is within the ~/FinalProject/Vignette directory within Hoffman2.
+***NOTE:*** This can only be done if the user is within the ~/FinalProject/Vignette/Hoffman2_R directory within Hoffman2.
 
 ## Expected Output
 
@@ -118,10 +118,12 @@ For Reference: Our Final Output text file, within NewData60.txt, prints the spec
 ### R Script
 For the expected output of the R script, a csv table is created with the names of the Genus, Species. Trait data, chosen by the user, will be printed for each of the Genus, Species to complete the table. It is possible some Genus, Species will not have data reported for every desired traits. This will be denoted with 'NA'.
 
-***NOTE:*** The Bash script and the R script are both found within Commands.sh. We have separated the Expected Output into two sections to specify the purposes of each. However, after the program has finished running, the expected output detailed in the R Script section will be the final product for the program.
+***NOTE:*** The Bash script and the R script are both found within FinalProject/Vignette/Hoffman2_R/Commands.sh. We have separated the Expected Output into two sections to specify the purposes of each. However, after the program has finished running, the expected output detailed in the R Script section will be the final product for the program.
 
 ### Difficulties with TR8 Package
-There have been reported issues with the installation of the TR8 package and its dependencies when attempting to install in R. If these occur, it is suggested to run the Bash script alone and do the R anaylsis within RStudio. The neccesary steps for RStudio analysis are included in the RStudio directory on this GitHub page. We predict this issue occurs due to an incompatibility between Hoffman2 / R and the TR8 package and are currently attempting to solve to be accessible to all users.
+There have been reported issues with the installation of the TR8 package and its dependencies when attempting to install in R. If these occur, it is suggested to run the Bash script alone and do the R anaylsis within RStudio. The necessary files can be found within FinalProject/Vignette/Hoffman2_RStudio. This directory contains the neccessary files to run the PITA program, assuming the TR8 package properly installs and loads within R.
+
+The neccesary steps for RStudio analysis are included in FinalProject/Vignette/Hoffman2_RStudio on this GitHub page. We predict this issue occurs due to an incompatibility between Hoffman2 / R and the TR8 package and are currently attempting to solve such issues. Our goal if for PITA to be accessible to all interested users.
 
 ## References
 Biolflor: Klotz, S., Kuhn, I., Durka, W. (2002) BIOLFLOR - Eine Datenbank zu biologi- € sch-okologischen Merkmalen zur Flora von Deutschland. € Schriftenreihe fur€ Vegetationskunde, 38, 1–333. https://www.ufz.de/biolflor/index.jsp
