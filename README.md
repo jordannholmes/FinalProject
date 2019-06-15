@@ -1,6 +1,8 @@
 # Plants In Trait Analysis (PITA)
 https://zenodo.org/record/3246685#.XQSRZG9Kg6U
 
+10.5281/zenodo.3246685
+
 ## Authors
 Nicole Diaz (nicolediaz1@g.ucla.edu)
 
